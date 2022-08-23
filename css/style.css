@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+
 /* Header Section Design Start */
 
 .header-container {
@@ -20,7 +21,7 @@ body {
         url('../images/donation3.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 680px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +44,9 @@ body {
 
 .header-text p {
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 30px;
+
 
 }
 
@@ -63,9 +65,9 @@ body {
     background-color: white;
 }
 
-
-
 /* Header Section Design End */
+
+
 
 
 /* Donate Today Design Start */
@@ -90,6 +92,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+    color: #707070;
 }
 
 .donate-amounts {
@@ -97,9 +100,6 @@ body {
 }
 
 .choose-amount ul {}
-
-
-
 
 .choose-amount li {
     list-style: none;
@@ -168,6 +168,8 @@ body {
 
 
 
+
+
 /* Donate Plan Design Start */
 
 .donte-plan-section {
@@ -193,6 +195,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     margin-top: 20px;
+    color: #707070;
 }
 
 .cards {
@@ -242,9 +245,126 @@ body {
     color: #707070;
 }
 
-
-
 /* Donate Plan Design End */
+
+
+
+
+
+/* OUR PROJECTS Section Start  */
+.projects-container {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects {
+    width: 100%;
+    text-align: center;
+}
+
+.projects-title h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.projects-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.singel-project {
+    margin: 10px;
+    width: 50%;
+}
+
+.singel-project img {
+    width: 80%;
+}
+
+.singel-project h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.singel-project p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: left;
+    color: #707070;
+}
+
+/* OUR PROJECTS Section End */
+
+
+
+
+
+/* NEWSLETTER section start */
+.newsletter-container {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter {
+    width: 50%;
+    text-align: center;
+}
+
+.newsletter h3 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.newsletter p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #707070;
+
+}
+
+.signup {
+    padding: 70px 0;
+    background-color: #FFF4D6;
+    margin-top: 50px;
+}
+
+.signup input,
+button {
+    padding: 15px 30px;
+    font-size: 16px;
+}
+
+.signup input {
+    background-color: #D9D9D9;
+    border: none;
+}
+
+.signup input:focus {
+    outline: none;
+}
+
+.signup button {
+    background-color: orangered;
+    color: #FAFAFA;
+    border: none;
+    margin-left: -10px;
+}
+
+/* NEWSLETTER section End */
+
+
+
+
 
 
 /* Footer Design Start */
